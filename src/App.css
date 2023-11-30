@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("/public/img/makeup-artist-business.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner__content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner__text {
+  width: 500px;
+}
+.banner__text h3 {
+  font-size: 50px;
+}
+.banner__text h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 700;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner__text p {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+}
+.bg-purple{
+  background-color: #808;
+}
+/* .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+} */
+.navbar__text {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  width: 50%;
+}
+.logo img {
+  width: 100px;
+  /* image: url(/public/img/Logo.png); */
+}
+.navbar__ul {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.banner__btn {
+  margin-top: 35px;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.btn-smart {
+  background-color: rgb(53, 1, 53);
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.btn-smart:hover {
+  background-color: transparent;
+}
+.about {
+  padding: 40px 0px 15px 0px;
+  background-color: rgb(105, 30, 148);
+  /* justify-content:center; */
+  /* padding-left: 30px; */
+}
+.booking{
+  background: rgba(105, 30, 148);
+}
+
+.appointment{
+ color: #fff;
+}
+
+.contact-bg{
+  background: url(/public/img/makeup-artist-business.jpg);
+}
+.contact{
+  color: #fff;
+}
+.p-25 {
+  padding: 45px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.about h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+/* .about h1 {
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+} */
+.about p {
+  font-size: 28px;
+  color: #fff;
+  font-style: italic;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+}
+
+.about__btn {
+  margin-top: 35px;
+  color: white;
+  width: 50%;
+}
+
+
+.shop {
+  /* width: 100%; */
+  background: url("/public/img/normal makeup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 450px; */
+  background-attachment: fixed;
+}
+.shop__text {
+  height: 450px;
+  display: flex;
+  /* align-content: space-between; */
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  color: #fff;
+}
+.shop__text h1 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+.shop__btn {
+  margin-top: 35px;
+}
+
+.clients {
+  width: 100%;
+  padding: 100px 0;
+  background: url("/public/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.client {
+  text-align: center;
+}
+.client h1 {
+  font-style: 45px;
+}
+.client p {
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.prices {
+   width: 100%;
+  padding: 100px 0;
+  background: url("/public/img/normal\ makeup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.price {
+  padding: 20px;
+  text-align: center;
+}
+.price__img {
+  width: 100%;
+}
+
+.price__img img {
+  width: 250px;
+}
+
+.price__heading {
+  margin-top: 20px;
+  font-size: 25px;
+  color:#000;
+}
+.price__text {
+  margin-top: 15px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.price_rs {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+@media (max-width: 700px) {
+  .navbar__text {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .banner__text {
+    width: auto;
+  }
+  .banner__text h3 {
+    font-size: 25px !important;
+  }
+  .banner__text h1 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .banner__text p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .navbar__ul {
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar__ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .col-3,
+  .col-4,
+  .col-6 {
+    width: 100%;
+  }
+  .client {
+    margin: 20px 0;
+  }
+  .about h1 {
+    font-size: 25px;
+  }
+  .shop h1 {
+    font-size: 25px;
+  }
+  .menu h1 {
+    font-size: 25px;
+  }
+}
+/* .navbar-scrolled{
+  background-color: #800080;
+} */
+
+.form-control{
+  margin-bottom: 10px;
+}
+
+.btn-3{
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: rgb(53, 1, 53);
+  /* border-color: transparent; */
+}
+
+.btn-3:hover{
+  background-color: transparent;
+  color: white;
+}
+
+.btn-2{
+  background-color: rgb(53, 1, 53);
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.btn-2:hover{
+  background-color: transparent;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+}
+
+.payment{
+ margin-left: 100px;
+}
+.payment-2{
+  width: 200%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.payment-2 h1{
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: #000;
+}
+
+.pay-1{
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000;
+  /* font-style:unset; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* font-size-adjust: inherit; */
+}
+
+
+.footer-image{
+    height: 100;
+    width: 200px;
+}
+
+.opening-hr{
+    margin-left: 10%;
+}
+.opening-hr-2{
+    margin-left: 20px;
+}
+.footer-text{
+    color: white;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-text-1{
+    /* margin-left: 20px; */
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-text-1{
+    margin-left: 30px;
+}
+.footer-list{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    /* text-align: center; */
+}
+.footer-list-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .footer-list-2 li a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+} */
+.foot{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.foot:hover{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: #808;
+    margin-bottom: 10px;
+}
+.contact-2{
+  margin-left: 10px;
+}
+.color{
+  background-color: rgb(53, 1, 53);
+}
+
+/* ================-======== */
+.spinner-wrapper{
+    background-color: #b812eb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity all 60s;
+}
+.spinner-border{
+    height: 60px;
+    width: 60px;
+}
+/* +++++++++++++++++++++++++++++ */
